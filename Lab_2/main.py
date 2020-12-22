@@ -5,7 +5,7 @@ xy = []
 n = int(input("Введите количество точек: "))
 
 def length(a,b):
-  return(math.sqrt(((a[0]-a[1])**2)+(b[0]-b[1])**2))
+  return(math.sqrt(((a[0]-b[0])**2)+(a[1]-b[1])**2))
 
 xy = [[float(j) for j in input().split()] for i in range(n)]
 
