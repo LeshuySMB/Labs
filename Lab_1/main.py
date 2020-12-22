@@ -1,4 +1,4 @@
-line = input().split()
+line = [str(s) for s in input().split()]
 
 ostring = ''
 
